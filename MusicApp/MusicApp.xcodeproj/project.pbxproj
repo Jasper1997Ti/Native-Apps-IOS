@@ -14,11 +14,11 @@
 		A44C0E7324F68C7B00E6C923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44C0E7224F68C7B00E6C923 /* Assets.xcassets */; };
 		A44C0E7624F68C7B00E6C923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44C0E7424F68C7B00E6C923 /* LaunchScreen.storyboard */; };
 		A44C0E7F24F6982600E6C923 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C0E7E24F6982600E6C923 /* PlayerViewController.swift */; };
-		A44C0E8F24F69DC400E6C923 /* Here With You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A44C0E8A24F69DC400E6C923 /* Here With You.mp3 */; };
-		A44C0E9024F69DC400E6C923 /* Come Alive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A44C0E8B24F69DC400E6C923 /* Come Alive.mp3 */; };
-		A44C0E9124F69DC400E6C923 /* Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A44C0E8C24F69DC400E6C923 /* Thunder.mp3 */; };
-		A44C0E9224F69DC400E6C923 /* High Alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A44C0E8D24F69DC400E6C923 /* High Alert.mp3 */; };
-		A44C0E9324F69DC400E6C923 /* Give & Take.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A44C0E8E24F69DC400E6C923 /* Give & Take.mp3 */; };
+		A472786924F6DBE60078676F /* Come_Alive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A472786424F6DBE40078676F /* Come_Alive.mp3 */; };
+		A472786A24F6DBE60078676F /* Here_With_You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A472786524F6DBE50078676F /* Here_With_You.mp3 */; };
+		A472786B24F6DBE60078676F /* Give_&_Take.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A472786624F6DBE50078676F /* Give_&_Take.mp3 */; };
+		A472786C24F6DBE60078676F /* High_Alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A472786724F6DBE60078676F /* High_Alert.mp3 */; };
+		A472786D24F6DBE60078676F /* Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A472786824F6DBE60078676F /* Thunder.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +31,11 @@
 		A44C0E7524F68C7B00E6C923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A44C0E7724F68C7B00E6C923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A44C0E7E24F6982600E6C923 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
-		A44C0E8A24F69DC400E6C923 /* Here With You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Here With You.mp3"; sourceTree = "<group>"; };
-		A44C0E8B24F69DC400E6C923 /* Come Alive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Come Alive.mp3"; sourceTree = "<group>"; };
-		A44C0E8C24F69DC400E6C923 /* Thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Thunder.mp3; sourceTree = "<group>"; };
-		A44C0E8D24F69DC400E6C923 /* High Alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "High Alert.mp3"; sourceTree = "<group>"; };
-		A44C0E8E24F69DC400E6C923 /* Give & Take.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Give & Take.mp3"; sourceTree = "<group>"; };
+		A472786424F6DBE40078676F /* Come_Alive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Come_Alive.mp3; sourceTree = "<group>"; };
+		A472786524F6DBE50078676F /* Here_With_You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Here_With_You.mp3; sourceTree = "<group>"; };
+		A472786624F6DBE50078676F /* Give_&_Take.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Give_&_Take.mp3"; sourceTree = "<group>"; };
+		A472786724F6DBE60078676F /* High_Alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = High_Alert.mp3; sourceTree = "<group>"; };
+		A472786824F6DBE60078676F /* Thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Thunder.mp3; path = "../../../../../Downloads/Lost Frequencies & Netsky - Here With You (Official Video) [Ultra Music]/Thunder.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,6 @@
 		A44C0E6824F68C7900E6C923 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
-				A44C0E7D24F68DBF00E6C923 /* Audio */,
 				A44C0E6924F68C7900E6C923 /* AppDelegate.swift */,
 				A44C0E6B24F68C7900E6C923 /* SceneDelegate.swift */,
 				A44C0E6D24F68C7900E6C923 /* ViewController.swift */,
@@ -77,20 +76,13 @@
 				A44C0E7424F68C7B00E6C923 /* LaunchScreen.storyboard */,
 				A44C0E7724F68C7B00E6C923 /* Info.plist */,
 				A44C0E7E24F6982600E6C923 /* PlayerViewController.swift */,
+				A472786424F6DBE40078676F /* Come_Alive.mp3 */,
+				A472786624F6DBE50078676F /* Give_&_Take.mp3 */,
+				A472786524F6DBE50078676F /* Here_With_You.mp3 */,
+				A472786724F6DBE60078676F /* High_Alert.mp3 */,
+				A472786824F6DBE60078676F /* Thunder.mp3 */,
 			);
 			path = MusicApp;
-			sourceTree = "<group>";
-		};
-		A44C0E7D24F68DBF00E6C923 /* Audio */ = {
-			isa = PBXGroup;
-			children = (
-				A44C0E8B24F69DC400E6C923 /* Come Alive.mp3 */,
-				A44C0E8E24F69DC400E6C923 /* Give & Take.mp3 */,
-				A44C0E8A24F69DC400E6C923 /* Here With You.mp3 */,
-				A44C0E8D24F69DC400E6C923 /* High Alert.mp3 */,
-				A44C0E8C24F69DC400E6C923 /* Thunder.mp3 */,
-			);
-			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,14 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A44C0E8F24F69DC400E6C923 /* Here With You.mp3 in Resources */,
+				A472786924F6DBE60078676F /* Come_Alive.mp3 in Resources */,
+				A472786B24F6DBE60078676F /* Give_&_Take.mp3 in Resources */,
 				A44C0E7624F68C7B00E6C923 /* LaunchScreen.storyboard in Resources */,
-				A44C0E9024F69DC400E6C923 /* Come Alive.mp3 in Resources */,
-				A44C0E9324F69DC400E6C923 /* Give & Take.mp3 in Resources */,
-				A44C0E9224F69DC400E6C923 /* High Alert.mp3 in Resources */,
+				A472786D24F6DBE60078676F /* Thunder.mp3 in Resources */,
 				A44C0E7324F68C7B00E6C923 /* Assets.xcassets in Resources */,
+				A472786C24F6DBE60078676F /* High_Alert.mp3 in Resources */,
 				A44C0E7124F68C7900E6C923 /* Main.storyboard in Resources */,
-				A44C0E9124F69DC400E6C923 /* Thunder.mp3 in Resources */,
+				A472786A24F6DBE60078676F /* Here_With_You.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
