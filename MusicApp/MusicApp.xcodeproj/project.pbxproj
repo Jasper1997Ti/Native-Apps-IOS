@@ -19,6 +19,8 @@
 		A472786B24F6DBE60078676F /* Give_&_Take.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A472786624F6DBE50078676F /* Give_&_Take.mp3 */; };
 		A472786C24F6DBE60078676F /* High_Alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A472786724F6DBE60078676F /* High_Alert.mp3 */; };
 		A472786D24F6DBE60078676F /* Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A472786824F6DBE60078676F /* Thunder.mp3 */; };
+		A4789E3A24F8F9D50021FA87 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4789E3824F8F9D50021FA87 /* CustomTableViewCell.swift */; };
+		A4789E3B24F8F9D50021FA87 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4789E3924F8F9D50021FA87 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		A472786624F6DBE50078676F /* Give_&_Take.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Give_&_Take.mp3"; sourceTree = "<group>"; };
 		A472786724F6DBE60078676F /* High_Alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = High_Alert.mp3; sourceTree = "<group>"; };
 		A472786824F6DBE60078676F /* Thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Thunder.mp3; path = "../../../../../Downloads/Lost Frequencies & Netsky - Here With You (Official Video) [Ultra Music]/Thunder.mp3"; sourceTree = "<group>"; };
+		A4789E3824F8F9D50021FA87 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A4789E3924F8F9D50021FA87 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				A472786524F6DBE50078676F /* Here_With_You.mp3 */,
 				A472786724F6DBE60078676F /* High_Alert.mp3 */,
 				A472786824F6DBE60078676F /* Thunder.mp3 */,
+				A4789E3824F8F9D50021FA87 /* CustomTableViewCell.swift */,
+				A4789E3924F8F9D50021FA87 /* CustomTableViewCell.xib */,
 			);
 			path = MusicApp;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 				A44C0E7624F68C7B00E6C923 /* LaunchScreen.storyboard in Resources */,
 				A472786D24F6DBE60078676F /* Thunder.mp3 in Resources */,
 				A44C0E7324F68C7B00E6C923 /* Assets.xcassets in Resources */,
+				A4789E3B24F8F9D50021FA87 /* CustomTableViewCell.xib in Resources */,
 				A472786C24F6DBE60078676F /* High_Alert.mp3 in Resources */,
 				A44C0E7124F68C7900E6C923 /* Main.storyboard in Resources */,
 				A472786A24F6DBE60078676F /* Here_With_You.mp3 in Resources */,
@@ -162,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A44C0E6E24F68C7900E6C923 /* ViewController.swift in Sources */,
+				A4789E3A24F8F9D50021FA87 /* CustomTableViewCell.swift in Sources */,
 				A44C0E7F24F6982600E6C923 /* PlayerViewController.swift in Sources */,
 				A44C0E6A24F68C7900E6C923 /* AppDelegate.swift in Sources */,
 				A44C0E6C24F68C7900E6C923 /* SceneDelegate.swift in Sources */,

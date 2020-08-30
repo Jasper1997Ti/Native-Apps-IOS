@@ -9,6 +9,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         configureSongs()
+        table.register(CustomTableViewCell.nib(), forCellReuseIdentifier: CustomTableViewCell.identifier)
         table.delegate = self
         table.dataSource = self
     }
@@ -52,15 +53,15 @@ func configureSongs(){
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.identifier, for: indexPath) as! CustomTableViewCell
+        
         let song = songs[indexPath.row]
         // configure
-        cell.textLabel?.text = song.name
-        cell.detailTextLabel?.text = song.albumName
+        cell.configure(with: song.name, imageName: song.imageName, subTitle: song.albumName)
+        
         cell.accessoryType = .disclosureIndicator
-        cell.imageView?.image = UIImage(named: song.imageName)
-        cell.textLabel?.font = UIFont(name: "Helvetica-Bold", size: 18)
-        cell.detailTextLabel?.font = UIFont(name: "Helvetica", size: 17)
+        cell.titleLabel.font = UIFont(name: "Helvetica-Bold", size: 18)
+        cell.subtitleLabel.font = UIFont(name: "Helvetica", size: 17)
 
         return cell
     }
@@ -72,7 +73,7 @@ func configureSongs(){
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
 
-        // present the player
+        // present the player with segue
         let position = indexPath.row
         guard let vc = storyboard?.instantiateViewController(identifier: "player") as? PlayerViewController else {
             return
